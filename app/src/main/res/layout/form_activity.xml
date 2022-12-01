@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#070707"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="20dp"
+        android:text="Event Details"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="33sp"
+        android:textStyle="bold" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="210dp"
+        android:layout_height="206dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.451"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/illus">
+    </com.airbnb.lottie.LottieAnimationView>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/event_name"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/et_style"
+        android:hint="Event Name"
+        android:textColor="@color/white"
+        android:textColorHint="#edb021"
+        android:paddingLeft="10dp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/event_desc"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/et_style"
+        android:hint="Event description"
+        android:textColor="@color/white"
+        android:textColorHint="#edb021"
+        android:paddingLeft="10dp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/event_Tag"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="420dp"
+        android:background="@drawable/et_style"
+        android:hint="Event Tagline"
+        android:textColor="@color/white"
+        android:textColorHint="#edb021"
+        android:paddingLeft="10dp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/event_Dept"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="480dp"
+        android:background="@drawable/et_style"
+        android:hint="Department conducting"
+        android:textColor="@color/white"
+        android:textColorHint="#edb021"
+        android:paddingLeft="10dp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/event_FacCo"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="540dp"
+        android:background="@drawable/et_style"
+        android:hint="Faculty co-ordinator"
+        android:textColor="@color/white"
+        android:textColorHint="#edb021"
+        android:paddingLeft="10dp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/event_Stuco"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/et_style"
+        android:hint="Student Co-ordinator"
+        android:textColor="@color/white"
+        android:textColorHint="#edb021"
+        android:paddingLeft="10dp"/>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="660dp"
+        android:backgroundTint="#7e7e7e"
+        android:text="NEXT"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:onClick="form2"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

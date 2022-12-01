@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "441669044367",
+    "firebase_url": "https://easifyuni-default-rtdb.firebaseio.com",
+    "project_id": "easifyuni",
+    "storage_bucket": "easifyuni.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441669044367:android:de358ed529aacfbe93c8fa",
+        "android_client_info": {
+          "package_name": "com.example.easifyuni"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441669044367-ftvittmb5n034v569kqhb0ks7dioks64.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.easifyuni",
+            "certificate_hash": "22a09e16a79dbebd5ab22e22764e93f394ef1a55"
+          }
+        },
+        {
+          "client_id": "441669044367-0sm6fbpe74s3osvj4m22nfqtq8ha7h46.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6vzxdCAD4R_2L7Cx-tR2CveysyzVkaIQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "441669044367-0sm6fbpe74s3osvj4m22nfqtq8ha7h46.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
